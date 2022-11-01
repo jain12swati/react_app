@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Breadcrumb, Col } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink } from "react-router-dom";
 
 class Header extends Component {
@@ -54,19 +54,19 @@ class Header extends Component {
                     </div>
                 </Navbar>
 
-                <Breadcrumb>
-                    <div className="container">
-                        <div className="row row-header">
-                            <div className="col-12 col-sm-6">
-                                <h1>Restorante Con Fusion</h1>
-                                <p>We take inspiration from the World's cuisines,
-                                    and create a unique fusion experience.
-                                    Our lipsmacking creations will tickle your culinary senses!
-                                </p>
-                            </div>
+                
+                <div className="container">
+                    <div className="row row-header hero-banner">
+                        <div className="col-12 col-sm-6">
+                            <h1>Restorante Con Fusion</h1>
+                            <p>We take inspiration from the World's cuisines,
+                                and create a unique fusion experience.
+                                Our lipsmacking creations will tickle your culinary senses!
+                            </p>
                         </div>
                     </div>
-                </Breadcrumb>
+                </div>
+               
             </div>
         );
     }
